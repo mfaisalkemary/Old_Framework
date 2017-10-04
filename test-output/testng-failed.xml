@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.elm.mosa.portal.test.automation.Configure_Execute">
+        <methods>
+          <include name="ConfigureCEA"/>
+          <include name="ExecuteEWS"/>
+          <include name="ConfigureHE"/>
+          <include name="setup"/>
+          <include name="ConfigureCED"/>
+          <include name="ExecuteDQ"/>
+          <include name="ExecuteDQD"/>
+          <include name="ConfigureCESD"/>
+          <include name="ConfigureEWSD"/>
+          <include name="ConfigureCESA"/>
+          <include name="ExecuteAI"/>
+          <include name="ExecuteDCD"/>
+          <include name="ConfigureDCD"/>
+          <include name="ConfigureAI"/>
+          <include name="ExecuteAE"/>
+          <include name="ConfigureAE"/>
+          <include name="ExecuteEWSD"/>
+          <include name="ExecuteHE"/>
+          <include name="ExecuteCESA"/>
+          <include name="ConfigureDC"/>
+          <include name="ExecuteCESD"/>
+          <include name="ConfigureEWS"/>
+          <include name="ExecuteCEA"/>
+          <include name="ConfigureDQD"/>
+          <include name="ConfigureDQ"/>
+          <include name="ExecuteDC"/>
+          <include name="ExecueCED"/>
+          <include name="End"/>
+        </methods>
+      </class> <!-- com.elm.mosa.portal.test.automation.Configure_Execute -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
